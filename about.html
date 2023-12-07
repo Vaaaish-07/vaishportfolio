@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaishnavi Chavan - Portfolio </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #ffffaa;
+            background: linear-gradient(125deg, #ffffca, #ffff77);
+            color: black;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            box-shadow: 0px 0px 5px #00000033;
+            background-color: rgb(255, 255, 255);
+            transition: background 1.0s ease;
+        }
+
+        @keyframes headerAnimation {
+            0% {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        header {
+            animation: headerAnimation 0.8s ease-out;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+        }
+
+        nav ul li a:hover {
+            color: rgb(13, 74, 227);
+            font-size: 1.09rem;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 80px 0;
+        }
+
+        .firstSection>div {
+            margin: 1px 1px;
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 200%;
+            margin-top: 7%;
+        }
+
+
+        .leftSection h1 {
+
+            color: rgb(0, 0, 0);
+        }
+
+        .leftSection h1 span {
+            color: #aa4400;
+
+        }
+
+        .leftSection h2 {
+
+            font-weight: 600;
+        }
+
+        .firstSection .leftSection h2 {
+            color: rgb(0, 0, 0);
+            font-size: 100%;
+
+        }
+
+        .rightSection img {
+            margin: 1px 1px;
+            width: 94%;
+            border-radius: 30px;
+            box-shadow: 0px 0px 20px 0px #00000042;
+            animation: fadeIn 1s ease-in-out forwards;
+
+
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        .red {
+            color: rgba(185, 185, 0, 0.668);
+        }
+
+        .left {
+            font-weight: bold;
+        }
+
+        .right ul {
+            font-weight: bold;
+        }
+
+        .about-text {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #333;
+            font-weight: 400;
+            text-align: justify;
+            margin-bottom: 10 px;
+        }
+
+        .about {
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Vaishnavi</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="education.html">Education</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                <h1><span>Vaishnavi Chavan</span><br> About Me</h1>
+                <div class="about">
+                    <p class="about-text">
+                        Hello, this is Vaishnavi Chavan, currently pursuing my Bachelor's in Computer Engineering,
+                        currently in my third year. Passionate about the ever-evolving world of technology, I am driven
+                        by a curiosity to explore and innovate within this dynamic field.
+                    </p>
+                    <p class="about-text">
+                        My journey in computer engineering has been an exciting amalgamation of theoretical knowledge
+                        and practical application. I've delved into diverse areas including software development, system
+                        analysis, and hardware design, constantly seeking to expand my understanding and skill set.
+                    </p>
+                    <p class="about-text">
+                        I thrive on challenges that demand creative problem-solving and am adept at collaborating within
+                        multidisciplinary teams to achieve innovative solutions. Projects I've been involved in range
+                        from programming applications to designing and optimizing systems, each contributing to my
+                        growth as an engineer.
+                    </p>
+                </div>
+            </div>
+            <div class="rightSection"><img src="Vaishnavi.png" alt=""></div>
+        </section>
+        <section class="secondSection"></section>
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    </main>
+</body>
+
+</html>

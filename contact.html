@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaishnavi Chavan - Portfolio </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #ffffaa;
+            background: linear-gradient(125deg, #ffffca, #ffff77);
+            color: black;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            box-shadow: 0px 0px 5px #00000033;
+            background-color: rgb(255, 255, 255);
+            transition: background 1.0s ease;
+        }
+
+        @keyframes headerAnimation {
+            0% {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        header {
+            animation: headerAnimation 0.8s ease-out;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+        }
+
+        nav ul li a:hover {
+            color: rgb(13, 74, 227);
+            font-size: 1.09rem;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 80px 0;
+        }
+
+        .firstSection>div {
+            margin: 1px 1px;
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 200%;
+            margin-top: 7%;
+        }
+
+
+        .leftSection h1 {
+
+            color: rgb(0, 0, 0);
+        }
+
+        .leftSection h1 span {
+            margin: 38px 1px;
+            color: #aa4400;
+
+        }
+
+        .leftSection h2 {
+            font-weight: 600;
+        }
+
+        .firstSection .leftSection h2 {
+            color: rgb(0, 0, 0);
+            font-size: 100%;
+
+        }
+
+        .rightSection img {
+            margin: 1px 1px;
+            width: 94%;
+            border-radius: 30px;
+            box-shadow: 0px 0px 20px 0px #00000042;
+            animation: fadeIn 1s ease-in-out forwards;
+        }
+
+
+.contact {
+  font-family: Arial, sans-serif;
+  text-align: left;
+  margin-top: 50px;
+}
+
+.contact h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  gap: 20px;
+}
+
+.contact-item {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.contact-item:hover {
+  transform: scale(1.05);
+}
+
+.contact-item i {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.contact-item p {
+  margin: 0;
+  color: #333;
+  font-weight: bold;
+}
+
+.contact-item a {
+  text-decoration: none;
+  color: #333;
+}
+
+.contact-item a:hover {
+  color: #0d4ae3;
+}
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 40px 0; 
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-content p {
+  font-size: 1.2em; 
+}
+
+.social-links a {
+  color: #fff;
+  font-size: 1.5em;
+  margin: 0 10px;
+}
+
+.social-links a:hover {
+  color: #0d4ae3;
+}
+
+
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        .red {
+            color: rgba(185, 185, 0, 0.668);
+        }
+
+        .left {
+            font-weight: bold;
+        }
+
+        .right ul {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">VAISHNAVI's PORTFOLIO</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="education.html">Education</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                <section class="contact">
+                    <h1>Contact</h1>
+                    <ul class="contact-list">
+                        <li><i class="fas fa-phone"></i> Phone: 9552576565</li>
+                        <li><i class="fab fa-instagram"></i> <a href="https://instagram.com/vaaaish.16"
+                                target="_blank">Instagram</a></li>
+                        <li><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/vaishnavi-chavan-091538244"
+                                target="_blank">LinkedIn</a></li>
+                    </ul>
+                </section>
+            </div>
+            <div class="rightSection"><img src="Vaishnavi.png" alt=""></div>
+        </section>
+        <section class="secondSection"></section>
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        <footer>
+            <div class="footer-content">
+                <p>&copy; 2023 Vaishnavi Chavan. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Software Engineer', 'Content Writer', 'Event Manager'],
+            typeSpeed: 70,
+            backSpeed: 70,
+            loop: true
+        });
+    </script>
+</body>
+
+</html>
